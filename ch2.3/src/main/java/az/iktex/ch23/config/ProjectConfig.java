@@ -79,7 +79,6 @@ public class ProjectConfig extends WebSecurityConfigurerAdapter {
         UserDetails user3 = builder3.build();
         userDetailsManager.createUser(user3);
 
-
         auth
                 .userDetailsService(userDetailsManager)
                 .passwordEncoder(NoOpPasswordEncoder.getInstance());

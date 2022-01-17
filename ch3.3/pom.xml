@@ -8,27 +8,14 @@
         <version>2.6.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <packaging>pom</packaging>
     <groupId>az.iktex</groupId>
-    <artifactId>security</artifactId>
+    <artifactId>ch3-3</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>security</name>
-    <description>security</description>
+    <name>ch3.3</name>
+    <description>ch3.3</description>
     <properties>
         <java.version>11</java.version>
     </properties>
-
-    <modules>
-        <module>ch2.1</module>
-        <module>ch2.2</module>
-        <module>ch2.3</module>
-        <module>ch2.4</module>
-        <module>ch2.5</module>
-        <module>ch3.1</module>
-        <module>ch3.2</module>
-        <module>ch3.3</module>
-    </modules>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -37,6 +24,16 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-ldap</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.unboundid</groupId>
+            <artifactId>unboundid-ldapsdk</artifactId>
         </dependency>
 
         <dependency>
