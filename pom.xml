@@ -28,6 +28,7 @@
         <module>ch3.2</module>
         <module>ch3.3</module>
         <module>ch5.1</module>
+        <module>ch6.1</module>
     </modules>
 
     <dependencies>
