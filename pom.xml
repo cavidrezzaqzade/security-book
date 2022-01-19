@@ -17,7 +17,6 @@
     <properties>
         <java.version>11</java.version>
     </properties>
-
     <modules>
         <module>ch2.1</module>
         <module>ch2.2</module>
